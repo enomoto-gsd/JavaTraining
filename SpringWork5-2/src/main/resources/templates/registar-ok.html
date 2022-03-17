@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>登録結果</title>
+</head>
+<body>
+		<p>登録しました</p>
+	　<form action ="/" method="get">
+	 	<p><input type="submit" value= "戻る" /></p>
+	 </form>
+	 <p th:text ="${user.name}"></p>
+	 <p>がログイン中です。</p>
+</body>
+</html>
